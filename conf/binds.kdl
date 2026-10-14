@@ -15,6 +15,7 @@ binds {
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T hotkey-overlay-title="Open a Terminal: alacritty" { spawn "ghostty"; }
+    Alt+Space hotkey-overlay-title="Spotlight launcher (Quickshell)" { spawn-sh "$HOME/.config/niri/scripts/shellctl.sh toggle launcher"; }
     Mod+D hotkey-overlay-title="App launcher (Quickshell)" { spawn-sh "$HOME/.config/niri/scripts/shellctl.sh toggle launcher"; }
     Mod+Shift+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Mod+S hotkey-overlay-title="Settings panel (Quickshell)" { spawn-sh "$HOME/.config/niri/scripts/shellctl.sh toggle settings"; }

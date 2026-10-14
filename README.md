@@ -53,6 +53,8 @@ If you only want the niri setup, you can use it without Quickshell: remove the `
 - `pipewire` / `wireplumber` (`wpctl`), `networkmanager` (`nmcli`), `bluez` (`bluetoothctl`)
 - `power-profiles-daemon` (for the power profile buttons)
 - `cava` for the audio visualizer
+- `libqalculate` (`qalc`) and `wl-clipboard` (`wl-copy`) for the launcher calculator
+- `firefox` for links and web searches from the launcher
 - `ddcutil` for monitor brightness over DDC/CI (your user must be in the `i2c` group)
 - `nvidia-smi` for GPU stats (optional)
 - `wttr.in` access for the weather widget (optional)
@@ -77,6 +79,7 @@ The Quickshell configuration lives in `~/.config/quickshell` and is required for
 | Key | Action |
 | --- | --- |
 | `Mod+T` | Open Ghostty |
+| `Alt+Space` | Open the Spotlight-style launcher (apps, calculator, links, web search) |
 | `Mod+D` | Open the Quickshell app launcher |
 | `Mod+Shift+D` | Open fuzzel |
 | `Mod+S` | Open the Quickshell settings panel |
